@@ -1,87 +1,109 @@
+###  Ödev 1 - Blog Sayfası Oluşturma -
+![ Fashion-Blog](./src/project.png)
+![ Fashion-Blog](./src/project-1.png)
+![ Fashion-Blog](./src/project-2.png)
+![ Fashion-Blog](./src/project-3.png)
+![ Fashion-Blog](./src/project-5.png)
+![ Fashion-Blog](./src/project-6.png)
 
-📝 Fashion Blog – Responsive Web Page
-Bu proje, HTML, CSS ve Bootstrap kullanılarak geliştirilmiş, moda temalı dinamik ve estetik bir Blog Sayfasıdır. Kullanıcılar moda trendlerini, sokak stilini, ünlü görünümlerini ve sürdürülebilir moda yazılarını keşfedebilir. Sayfa modern bir görünüme sahiptir ve tüm cihazlarda uyumlu çalışır.
 
-***Amaç***
-Modern ve estetik bir blog sayfası tasarlamak
+HTML Form Created According to the Following Requirements
+This project is a fashion-themed, dynamic, and aesthetic Blog Page developed using HTML, CSS, and Bootstrap. Users can explore fashion trends, street style, celebrity looks, and sustainable fashion articles. The page has a modern appearance and is fully responsive across all devices.
 
-Farklı moda kategorilerine göre içerikleri gruplamak
 
-Kullanıcı dostu, mobil uyumlu bir arayüz oluşturmak
 
-***Uygulanan Özellikler***
-🎨 1. Tema ve Değişken Tanımlamaları
-:root üzerinden renkler, yazı tipleri ve stiller tanımlandı.
 
-Ana renk olarak hwb(167 59% 6%) kullanıldı.
 
-Yazı tipleri için Google Fonts’tan "Bungee" ve "Nunito Sans" eklendi.
+*** Implemented Features ***
+ 
+-----------------------------------------------------------------------------
 
-🧭 2. Navbar (Üst Menü)
-Bootstrap 5 ile responsive (duyarlı) bir navbar tasarlandı.
+*** 1. Theme and Variable Definitions ***
 
-Navbar içerisinde:
+Colors, fonts, and styles were defined using :root.
 
-Menü linkleri (Home, Blogger, Life, Social, Contact)
+The main color used is: hwb(167 59% 6%).
 
-Sağda “Login” butonu (hover efekti ile renk değişimi)
+Google Fonts “Bungee” and “Nunito Sans” were included.
+---
 
-Küçük ekranlar için açılır (offcanvas) menü eklendi.
+*** 2. Navbar (Top Menu) ***
 
-Navbar’a box-shadow, border-radius, ve özel padding uygulandı.
+A responsive navbar was created using Bootstrap 5.
 
-🖼️ 3. Hero Section (Tanıtım Alanı)
-Arka plan görseliyle dikkat çeken bir hero alanı eklendi.
+The navbar includes:
 
-Büyük başlık: "Style Inspiration"
+Menu links (Home, Blogger, Life, Social, Contact)
 
-Altında blog filtreleme düğmeleri (Style Inspiration, Latest Trends, Street Style, Seasonal Must Haves, vb.) yer aldı.
+A “Login” button on the right (with hover color effect)
 
-📰 4. Blog Kartları
-Bootstrap card yapısı ile blog içerikleri listelendi.
+An off-canvas menu for small screens
 
-Kartlarda:
+Custom styles were added: box-shadow, border-radius, and special padding.
+---
 
-Başlık
+*** 3. Hero Section ***
 
-Açıklayıcı metin (blog yazısı)
+A visually appealing hero area with a background image.
 
-Öne çıkan görsel
+Large heading: "Style Inspiration"
 
-Güncelleme tarihi
+Below it, blog filter buttons (Style Inspiration, Latest Trends, Street Style, Seasonal Must Haves, etc.)
+---
 
-Görseller object-fit: cover ile sabit oranlarda gösterildi.
+*** 4. Blog Cards ***
 
-Kartlara özel card-title, card-text, card-img gibi sınıflar eklendi.
+Blog content was listed using Bootstrap card components.
 
-📚 5. Sidebar (Yan Menü)
-Sayfanın sağında bir yan menü bölgesi oluşturuldu.
+Each card contains:
 
-İçeriğinde:
+Title
 
-"Latest Blog Posts" açıklama yazısı
+Descriptive text (blog content)
 
-"Popular Tags" başlığı altında badge benzeri linkler (#Lifestyle, #Trends, #Wellness, vb.)
+Featured image
 
-♻️ 6. CSS Özelleştirmeleri
-Navbar, butonlar, blog kartları ve sidebar öğeleri için özel sınıflar tanımlandı:
+Last updated date
 
-.login-button, .custom-btn, .custom-img, .custom-h1-class gibi.
+Images were styled with object-fit: cover to keep aspect ratios.
 
-Hover efektleri, geçiş animasyonları (transition) ve etkileşimli öğeler eklendi.
+Custom classes were applied: card-title, card-text, card-img.
+---
 
-Responsive görsellik sağlamak için box-shadow, border, border-radius gibi modern stiller kullanıldı.
+*** 5. Sidebar ***
 
-📱 7. Duyarlı (Responsive) Tasarım
-Tüm yapı Bootstrap grid sistemi ile mobil/tablet/masaüstü uyumlu olacak şekilde geliştirildi.
+A sidebar section was created on the right side of the page.
 
-Navbar ve blog kartları mobil görünümde yeniden düzenlenir.
+Contents include:
 
-***Kullanılan Teknolojiler***
-HTML5
+A brief text titled “Latest Blog Posts”
 
-CSS3 (değişken destekli özel stillerle)
+“Popular Tags” section with badge-style links (#Lifestyle, #Trends, #Wellness, etc.)
+---
 
-Bootstrap 5.3.7
+*** 6. Custom CSS Enhancements ***
 
-Google Fonts (Bungee, Nunito Sans)
+Custom classes created for navbar, buttons, blog cards, and sidebar elements:
+
+.login-button, .custom-btn, .custom-img, .custom-h1-class, etc.
+
+Added hover effects, transition animations, and interactive elements.
+
+Modern styles like box-shadow, border, and border-radius were used for responsiveness and design.
+---
+
+*** 7. Responsive Design ***
+
+Entire layout was developed with the Bootstrap grid system for mobile, tablet, and desktop compatibility.
+
+Navbar and blog cards adapt in layout for smaller screens.
+---
+
+*** Technologies ***
+1. HTML5
+
+2. CSS3
+
+3. Bootstrap 5.3.7
+
+4. Google Fonts (Bungee, Nunito Sans)
