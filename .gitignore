@@ -1,1 +1,9 @@
-src/
+# Ignore all files in the src directory
+src/ 
+# Except for README image files
+!src/project.png
+!src/project-1.png
+!src/project-2.png
+!src/project-3.png
+!src/project-5.png
+!src/project-6.png
